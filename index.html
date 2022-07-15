@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo">
+    </header>
+    <div class="content">
+        <div class="segmentOne">
+            <h1>Bill total</h1>
+            <div class="answerOne">
+                <label for="bill">$</label>
+                    <input type="text" id="bill" placeholder="0.00" name="bill">
+            </div>
+        </div>
+        <div class="segmentTwo">
+            <h1>Tip</h1>
+            <div class="answerTwo">
+                <label for="tip">%</label>
+                <input type="text" id="tip" placeholder="0.00" name="tip">
+            </div>
+        </div>
+        <div class="segmentThree">
+            <div class="First">
+                <button id="plus">+</button>
+                <h1 id="cpt">1</h1>
+                <button id="minus">-</button>
+            </div>
+            <div class="Second">
+                <h2>Total per Person</h2>
+                <div class="answerThree" id="answerThree">
+                    <h1 id="result">$0.00</h1>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+</body>

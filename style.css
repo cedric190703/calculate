@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #858bea;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 12%;
+    border-radius: 50%;
+    margin-top: 2%;
+    transition: all 1.5s;
+}
+
+header img:hover {
+    filter: invert(1);
+}
+
+.content {
+    margin: 2% 25% 0;
+    text-align: center;
+    background-color: #252236;
+    color: aliceblue;
+    border-radius: 25px;
+    height: 575px;
+}
+
+.segmentOne {
+    text-align: left;
+    margin: 2% 2% 2% 2%;
+    position: absolute;
+}
+
+input
+{
+    margin-top: 2%;
+    background-color: #323555;
+    border-radius: 20px;
+    border: none;
+    width: 760px;
+    height: 40px;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.answerOne h1,
+.answerTwo h1 {
+    margin-left: 2%;
+}
+
+.segmentTwo {
+    text-align: left;
+    margin: 10% 0 2% 2%;
+    position: absolute;
+}
+
+.segmentThree {
+    text-align: left;
+    margin: 18% 0 2% 2%;
+    position: absolute;
+    display: flex;
+    grid-gap: 155%;
+}
+
+.First {
+    display: flex;
+}
+
+.First button {
+    font-size: xx-large;
+    border-radius: 50%;
+    height: 55%;
+    width: 60px;
+    background-color: #8187e3;
+    border: none;
+    cursor: pointer;
+}
+
+.First h1 {
+    margin: 0 8%;
+    font-size: xxx-large;
+}
+
+.answerThree
+{
+    margin-top: 2%;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 25px;
+}
+
+label {
+    font-size: xx-large;
+}
+
+.submit {
+    position: absolute;
+    margin: 25% 0 10% 20%;
+    width: 70px;
+    height: 65px;
+}
+
+.submit button {
+    width: 300%;
+    height: 75px;
+    border-radius: 25px;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: #323555;
+    border: 3px solid aliceblue;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    color: #252236;
+    background-color: aliceblue;
+    border: 3px solid #252236;
+}
+
+
+@media screen and (max-width: 1700px) {
+    input {
+        width: 500px;
+        font-size: xx-large;
+    }
+
+    .segmentThree {
+        grid-gap: 100%;
+    }
+
+    .submit {
+        margin: 27% 0 20% 17%;
+    }
+
+    .content {
+        height: 470px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    input {
+        width: 500px;
+        font-size: xx-large;
+    }
+
+    .segmentThree {
+        margin-top: 20%;
+        grid-gap: 80%;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+
+    .content {
+        height: 470px;
+    }
+
+    #result {
+        text-align: center;
+        font-size: xxx-large;
+    }
+
+    .First button {
+        height: 30px;
+        width: 40px;
+    }
+
+    .submit {
+        width: 4%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    input {
+        width: 400px;
+        font-size: x-large;
+    }
+
+    .segmentThree {
+        grid-gap: 65%;
+    }
+
+    #result {
+        font-size: xx-large;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    input {
+        width: 350px;
+        font-size: x-large;
+    }
+
+    .First h1 {
+        font-size: x-large;
+    }
+
+    .First button {
+        font-size: x-large;
+    }
+
+    .segmentThree {
+        grid-gap: 50%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    input {
+        width: 300px;
+        font-size: x-large;
+    }
+
+    .segmentThree {
+        margin-top: 35%;
+        grid-gap: 40%;
+    }
+
+    .segmentOne {
+        margin-top: 5%;
+    }
+
+    .segmentTwo {
+        margin-top: 20%;
+    }
+
+    .submit {
+        margin-top: 44%;
+    }
+
+    .submit button {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .segmentThree {
+        grid-gap: 30%;
+    }
+
+    .submit button {
+        font-size: large;
+    }
+
+    .Second {
+        font-size: small;
+    }
+
+    input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .segmentThree {
+        grid-gap: 10%;
+    }
+
+    input  {
+        width: 180px;
+    }
+
+    #result {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 540px) {
+        .segmentThree {
+            grid-gap: 5%;
+            margin-top: 60%;
+        }
+    
+        .Second h1{
+            font-size: x-large;
+        }
+        .segmentTwo {
+            margin-top: 30%;
+        }
+
+        input  {
+            width: 180px;
+        }
+    
+        #result {
+            font-size: large;
+        }
+
+        .submit {
+            margin-top: 80%;
+            width: 50px;
+            margin-left: 10%;
+        }
+
+        .content {
+            width: 250px;
+        }
+}
